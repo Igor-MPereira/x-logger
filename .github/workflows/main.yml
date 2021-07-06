@@ -1,6 +1,4 @@
 name: es-check-action
-  # You may pin to the exact commit or the version.
-  # uses: ali-kamalizade/es-check-action@28292c9ba63169153c9dd9d8d717e090332df893
   uses: ali-kamalizade/es-check-action@1.0.2
   with:
     # Directory which should be checked
