@@ -1,0 +1,9 @@
+name: es-check-action
+  uses: ali-kamalizade/es-check-action@1.0.2
+  with:
+    # Directory which should be checked
+    directory: lib
+    # Define the ECMAScript version to check for against a glob of JavaScript files
+    # ecmaVersion: # optional, default is es5
+    # A glob of files to test the ECMAScript version against
+    # files: # optional, default is *.js
