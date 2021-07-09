@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: ali-kamalizade/es-check-action@1.0.2
         with:
-          directory: 'lib'
+          directory: '../../lib'
           ecmaVersion: 'es3'
           files: 'index.js'
