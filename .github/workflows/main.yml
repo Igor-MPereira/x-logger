@@ -7,5 +7,5 @@ jobs:
       - uses: ali-kamalizade/es-check-action@1.0.2
         with:
           directory: 'lib'
-          ecmaVersion: 'es5'
-          files: '*.js'
+          ecmaVersion: 'es3'
+          files: 'index.js'
