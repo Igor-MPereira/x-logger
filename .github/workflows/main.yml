@@ -4,7 +4,7 @@ jobs:
   es-check-action-job:
     runs-on: windows-latest
     steps:
-      - uses: actions/es-check-action@1.0.2
+      - uses: ali-kamalizade/es-check-action@1.0.2
         with:
           directory: 'lib'
           ecmaVersion: 'es5'
