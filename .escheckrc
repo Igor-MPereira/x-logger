@@ -1,5 +1,5 @@
 {
   "ecmaVersion": "es3",
   "module": false,
-  "files": "./lib/index.js"
+  "files": "./dist/*.js"
 }

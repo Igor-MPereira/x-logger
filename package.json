@@ -9,9 +9,11 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "test": "es-check"
+    "test": "es-check",
+    "build": "uglifyjs lib/index.js -o dist/xlogger.min.js -c -m --source-map \"root='http://localhost:5500/test',url='xlogger.min.js.map'\""
   },
   "devDependencies": {
-    "es-check": "^5.2.4"
+    "es-check": "^5.2.4",
+    "uglify-js": "^3.13.10"
   }
 }
