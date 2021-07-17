@@ -1,7 +1,7 @@
 {
   "name": "x-logger",
   "version": "0.0.1-dev",
-  "description": "extended client and server side logger with styles applied to text directly on string using html-tag-like syntax",
+  "description": "extensible client and server side logger with style parsing",
   "main": "lib/index.js",
   "repository": "https://github.com/Igor-MPereira/x-logger.git",
   "author": "Igor-MPereira <igor@gargantas.org>",
