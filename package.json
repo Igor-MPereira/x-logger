@@ -15,5 +15,6 @@
   "devDependencies": {
     "es-check": "^5.2.4",
     "uglify-js": "^3.13.10"
-  }
+  },
+  "type": "module"
 }
