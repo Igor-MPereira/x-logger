@@ -58,6 +58,12 @@ export interface XLoggerConstructor {
   (keyword: string, useStyleParser: boolean): XLogger;
   (option: XLoggerOptionObject, useStylePArser: boolean): XLogger;
   (keyword: XLoggerLogLevelKeyword, useStyleParser: boolean): XLogger;
+  new(keyword: string): XLogger;
+  new(option: XLoggerOptionObject): XLogger;
+  new(keyword: XLoggerLogLevelKeyword): XLogger;
+  new(keyword: string, useStyleParser: boolean): XLogger;
+  new(option: XLoggerOptionObject, useStylePArser: boolean): XLogger;
+  new(keyword: XLoggerLogLevelKeyword, useStyleParser: boolean): XLogger;
   // TS cannot infer output from Symbols thus the logger handler will remain 'hidden' from the XLogger constructor interface.
   // [Symbol.for(XLoggerMakeSymbolKey('logger.handler'))]: XLoggerLoggerHandler;
 
