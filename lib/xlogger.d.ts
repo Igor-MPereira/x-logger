@@ -62,7 +62,9 @@ export interface XLoggerConstructor {
   // [Symbol.for(XLoggerMakeSymbolKey('logger.handler'))]: XLoggerLoggerHandler;
 
   readonly BuildXLoggerMethod: XLoggerMethodBuilder;
-  prototype: XLogger;
+  readonly prototype: XLogger;
 }
 
 declare var XLogger: XLoggerConstructor;
+
+export default XLogger;
