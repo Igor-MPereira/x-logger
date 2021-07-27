@@ -65,6 +65,4 @@ export interface XLoggerConstructor {
   readonly prototype: XLogger;
 }
 
-declare var XLogger: XLoggerConstructor;
-
-export default XLogger;
+export var XLogger: XLoggerConstructor;
